@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <form id="registrationForm">
+        <table>
+            <tr>
+                <td><label for="fullName">Full Name:</label></td>
+                <td><input type="text" id="fullName" name="fullName" value="Vincent Maverick Durano"></td>
+            </tr>
+            <tr>
+                <td><label for="username">Username:</label></td>
+                <td><input type="text" id="username" name="username" value="Vinz"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" id="password" name="password" value="*********"></td>
+            </tr>
+            <tr>
+                <td><label for="reEnterPassword">Re Password:</label></td>
+                <td><input type="password" id="reEnterPassword" name="reEnterPassword" value="*********"></td>
+            </tr>
+            <tr>
+                <td><label for="address">Address:</label></td>
+                <td><input type="text" id="address" name="address" value="Cebu, Philippines"></td>
+            </tr>
+            <tr>
+                <td><label for="age">Age:</label></td>
+                <td><input type="text" id="age" name="age" value="22"></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender:</label></td>
+                <td>
+                    <select id="gender" name="gender">
+                        <option value="Select">Select</option>
+                        <option value="Male" selected>Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="save" value="save">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <!-- Display input values here -->
+    <div id="output">
+        <!-- The input values will be displayed here after submission -->
+    </div>
+</body>
+</html>
